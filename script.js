@@ -1,4 +1,4 @@
-$(function(){
+(function(){
     $(window).resize(function(){
         var winW = $(window).width();
         var divResize = $(".resize");
