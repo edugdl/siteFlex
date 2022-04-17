@@ -20,7 +20,7 @@ header div section{
     height: 100%;
     max-height: 60px;
     max-width: 95%;
-    background-color: #ffa73a;
+    background-color: #ff0000;
 }
 header nav{
     display: flex;
