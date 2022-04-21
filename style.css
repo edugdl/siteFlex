@@ -6,7 +6,6 @@ div,a{
 }
 header{
     display: flex;
-    height: 110px;
     background-color: black;
 }
 header div{
@@ -21,6 +20,10 @@ header div section{
     max-height: 60px;
     max-width: 95%;
     background-color: #ff0000;
+}
+header div img{
+    height: auto;
+    max-height: 110px;
 }
 header nav{
     display: flex;
