@@ -34,4 +34,5 @@ header nav{
 header nav a{
     font-size: min(3vw, 35px);
     margin-right: 5%;
+    border: 1px solid red;
 }
