@@ -7,12 +7,13 @@ div,a{
 header{
     display: flex;
     background-color: black;
+    position: fixed;
+    width: 100%;
 }
 header div{
-    width: 40%;
+    width: 35%;
     display: flex;
     align-items: center;
-    padding-left: 10%;
 }
 header div section{
     width: 100%;
@@ -33,5 +34,8 @@ header nav{
 header nav a{
     font-size: min(3vw, 35px);
     margin-right: 5%;
-    border: 1px solid green;
+}
+main{
+    height: 1500px;
+    background-image: linear-gradient(#facc22, #f83600);
 }
