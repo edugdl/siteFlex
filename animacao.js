@@ -7,6 +7,9 @@ $(document).ready(function(){
         window.location.href = 'index.html';
     }
     $('#botao-sideBar').click(function(){
-        document.querySelector("#nav-sideBar").classList.toggle("aparecer");
+        let nav = document.querySelector("#nav-sideBar");
+        nav.classList.toggle("aparecer");
+        nav.classList.toggle("desaparecer");
+        navCount++;
     });
 });

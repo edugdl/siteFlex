@@ -9,12 +9,14 @@
         <link rel="stylesheet" href="style-mo.css">
     </head>
     <body>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="animacao.js"></script>
         <header>
             <div id="imagem">
                 <img class="img-fluid" src="logoSite.png" alt="logo">
             </div>
             <section>
-                <button id="botao-sideBar" type="button" value="☰"></button> 
+                <a id="botao-sideBar">☰</a> 
             </section>
         </header>
         <header id="under-fixed">
@@ -25,7 +27,8 @@
                 ☰
             </section>
         </header>
-        <nav id="nav-sideBar">
+        <main>
+        <nav id="nav-sideBar" class="desaparecer">
             <ul>
                 <li><a id="a-1" href="#">Sobre nós</a></li>
                 <li><a id="a-2" href="#">Localização</a></li>
@@ -33,10 +36,6 @@
                 <li><a id="a-4" href="#">Cardápio</a></li>
             </ul>
         </nav>
-        <main>
-
         </main>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="animacao.js"></script>
     </body>
 </html>
