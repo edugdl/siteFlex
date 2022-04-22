@@ -11,9 +11,10 @@ header{
     width: 100%;
 }
 header div{
-    width: 35%;
+    width: 30%;
     display: flex;
     align-items: center;
+    padding-left: 5%;
 }
 header div section{
     width: 100%;
@@ -29,7 +30,7 @@ header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 60%;
+    width: 70%;
 }
 header nav a{
     font-size: min(3vw, 35px);
