@@ -10,4 +10,19 @@ $(document).ready(function(){
         }
         navCount++;
     });
+    $('#avaliacao').click(function(){
+        document.getElementById("estrelas").style.display = 'flex';    
+    });
+    $('#sugestao').click(function(){
+        document.getElementById("estrelas").style.display = 'none';    
+    });
+    $('#btn_enviar').click(function(){
+        let nome = document.querySelector("#input-nome").value;    
+        let email = document.querySelector("#input-email").value;    
+        let telefone = document.querySelector("#input-telefone").value;    
+        let check_sugestao = document.querySelector("#sugestao").checked;    
+        let check_avaliacao = document.querySelector("#avaliacao").checked;      
+        let textarea = document.querySelector("textarea").value;   
+        
+    });
 });

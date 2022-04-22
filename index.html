@@ -30,7 +30,7 @@
                 </div>
             </header>
             <main class="contato">
-            <form>
+            <form action="">
                 <div class="contato-form">
                     <label>E-mail</label>
                     <input type="email" name="email" id="input-email"placeholder="seuemail@email.com"><br/>
@@ -41,7 +41,7 @@
                     <input type="radio" name="radio" id="sugestao"><label>Sugestão</label>
                     <input type="radio" name="radio" id="avaliacao"><label>Avaliação</label><br/>
                     <textarea id="input-avaliacao" placeholder="Digite aqui"></textarea>
-                    <div class="estrelas">
+                    <div id="estrelas" class="estrelas">
                         <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
                         <label for="cm_star-1"><i class="fa"></i></label>
                         <input type="radio" id="cm_star-1" name="fb" value="1"/>
@@ -54,6 +54,7 @@
                         <label for="cm_star-5"><i class="fa"></i></label>
                         <input type="radio" id="cm_star-5" name="fb" value="5"/>
                     </div>
+                    <input type="submit" id="btn_enviar" value="Enviar"></button>
                 </div>
             </form>
             </main>
