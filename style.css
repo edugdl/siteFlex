@@ -2,7 +2,11 @@ div,a{
     font-size: 10px;
     margin: 0;
     padding: 0;
-    color: #ffa73a;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 header{
     display: flex;
@@ -31,12 +35,25 @@ header nav{
     justify-content: space-around;
     align-items: center;
     width: 70%;
+    transition: all;
+    cursor: pointer;
 }
 header nav a{
     font-size: min(3vw, 35px);
     margin-right: 5%;
+    transition: all 0.5s;
+}
+#a-1:hover,#a-2:hover,#a-3:hover,#a-4:hover{
+    transform: scale(1.25);
+    color: black;
+    filter: drop-shadow(0px 0 15px 15px rgba(255, 255, 255));
 }
 main{
     height: 1500px;
     background-image: linear-gradient(#facc22, #f83600);
 }
+/* @media(max-width : 900px) {
+    body{
+        background-color: green;
+    }
+} */
