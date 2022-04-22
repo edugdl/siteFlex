@@ -10,30 +10,60 @@
         
     </head>
     <body>
-        <header>
-            <div id="imagem">
-                <img class="img-fluid" src="logoSite.png" alt="logo">
-            </div>
-            <nav>
-                <a id="a-1" href="#">Sobre nós</a>
-                <a id="a-2" href="#">Localização</a>
-                <a id="a-3" href="#">Cardápio</a>
-                <a id="a-4" href="#">Cardápio</a>
+        <div class="desktop">
+            <header>
+                <div class="imagem">
+                    <img class="img-fluid" src="logoSite.png" alt="logo">
+                </div>
+                <nav>
+                    <a id="a-1" href="#">Sobre nós</a>
+                    <a id="a-2" href="#">Localização</a>
+                    <a id="a-3" href="#">Cardápio</a>
+                    <a id="a-4" href="#">Cardápio</a>
+                </nav>
+            </header>
+            <header class="under-fixed">
+                <div class="imagem">
+                    <img class="img-fluid" src="logoSite.png" alt="logo">
+                </div>
+                <nav>
+                    <a id="a-1" href="#">Sobre nós</a>
+                    <a id="a-2" href="#">Localização</a>
+                    <a id="a-3" href="#">Cardápio</a>
+                    <a id="a-4" href="#">Cardápio</a>
+                </nav>
+            </header>
+            <main>
+            </main>
+        </div>
+        <div class="mobile">
+            <header>
+                <div class="imagem">
+                    <img class="img-fluid" src="logoSite.png" alt="logo">
+                </div>
+                <section>
+                    <a id="botao-sideBar">☰</a> 
+                </section>
+            </header>
+            <header class="under-fixed">
+                <div class="imagem">
+                    <img class="img-fluid" src="logoSite.png" alt="logo">
+                </div>
+                <section>
+                    ☰
+                </section>
+            </header>
+            <main>
+            <nav id="nav-sideBar" class="pre-aparecer">
+                <ul>
+                    <li><a id="a-1" href="#">Sobre nós</a></li>
+                    <li><a id="a-2" href="#">Localização</a></li>
+                    <li><a id="a-3" href="#">Cardápio</a></li>
+                    <li><a id="a-4" href="#">Cardápio</a></li>
+                </ul>
             </nav>
-        </header>
-        <header id="under-fixed">
-            <div id="imagem">
-                <img class="img-fluid" src="logoSite.png" alt="logo">
-            </div>
-            <nav>
-                <a id="a-1" href="#">Sobre nós</a>
-                <a id="a-2" href="#">Localização</a>
-                <a id="a-3" href="#">Cardápio</a>
-                <a id="a-4" href="#">Cardápio</a>
-            </nav>
-        </header>
-        <main>
-        </main>
+            </main>
+        </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="animacao.js"></script>
     </body>
