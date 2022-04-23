@@ -100,7 +100,7 @@ main{
         width: 97.5%;
         margin-bottom: 10px;
     }
-    main.contato{
+    main#contato{
         height: 950px;
         padding-top: 70px;
     }
@@ -135,6 +135,9 @@ main{
         margin: 10px 0 0 24.375%;;
         border-radius: 15px;
         border: 0;
+    }
+    #contato{
+        display: none;
     }
 }
 

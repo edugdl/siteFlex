@@ -25,4 +25,18 @@ $(document).ready(function(){
         let textarea = document.querySelector("textarea").value;   
         
     });
+    // let sobre_nos = document.getElementById("a-1");
+    // let promocoes = document.getElementById("a-2");
+    // let cardapio = document.getElementById("a-3");
+    let contato = document.getElementById("contato");
+    function invisivel(){
+        // sobre_nos.style.display = 'none';
+        // promocoes.style.display = 'none';
+        // cardapio.style.display = 'none';
+        contato.style.display = 'none';
+    }
+    $('#a-4').click(function(){
+        invisivel();
+        contato.style.display = 'block';
+    });
 });
